@@ -1,0 +1,32 @@
+[
+  {
+    "id": 0,
+    "datumPrijezdu": "2025-05-06",
+    "datumOdjezdu": "2025-05-07",
+    "pocetOsob": 1
+  },
+  {
+    "id": 1,
+    "datumPrijezdu": "2025-05-07",
+    "datumOdjezdu": "2025-05-22",
+    "pocetOsob": 1
+  },
+  {
+    "id": 2,
+    "datumPrijezdu": "2025-05-07",
+    "datumOdjezdu": "2025-05-22",
+    "pocetOsob": 1
+  },
+  {
+    "id": 3,
+    "datumPrijezdu": "2025-05-06",
+    "datumOdjezdu": "2025-05-07",
+    "pocetOsob": 1
+  },
+  {
+    "id": 4,
+    "datumPrijezdu": "2025-05-06",
+    "datumOdjezdu": "2025-05-07",
+    "pocetOsob": 1
+  }
+]

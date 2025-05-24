@@ -1,7 +1,7 @@
 export const RoomDetailInfo = ({selectedRoom}) => {
     return (
         <>
-            <h2>{selectedRoom.category}</h2>
+            <h2>Pokoj {selectedRoom.category}, {selectedRoom.price} Kč za osobu na noc </h2>
             <div className="columns-2">
                 <div className="column">
                     <img src={selectedRoom.image} />
