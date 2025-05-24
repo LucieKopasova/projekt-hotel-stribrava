@@ -1,6 +1,23 @@
 import './style.css';
+import { useEffect, useState } from 'react';
 
 export const HomePage = () => {
+  const [rooms, setRooms] = useState('');
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch("http://localhost:4000/api/pokoje");
+      const json = await response.json();
+      console.log(json.data)
+      setRooms(json.data);
+    };
+
+    fetchData();
+
+    
+  }, []);
+
+ 
   return (
     <>
     <div className="container">
@@ -36,7 +53,7 @@ export const HomePage = () => {
         </div>
 
         <div className="card">
-          <img className="card__image" src="img/image1.svg" />
+          <img className="card__image" src={`http://localhost:4000${rooms[0]?.image}`} />
           <div className="card__title">Card 3</div>
           <div className="card__body">Eveniet officiis</div>
         </div>
