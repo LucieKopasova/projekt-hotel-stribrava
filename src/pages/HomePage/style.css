@@ -1,17 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Poppins:wght@400;700&display=swap');
 
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-family: 'Poppins', sans-serif;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
 
 .container {
   max-width: 960px;
@@ -21,12 +8,13 @@ body {
   padding-left: 1rem;
 }
 
-@media screen and (min-width: 740px) {
+/* @media screen and (min-width: 740px) {
   .container {
     padding-right: 2rem;
     padding-left: 2rem;
   }
 }
+  */
 
 section {
   padding: 2rem 0;
@@ -97,6 +85,7 @@ img {
   margin: 0;
 }
 
+/*
 @media screen and (min-width: 740px) {
   .banner__stripe {
     padding: 1rem 0;
@@ -110,6 +99,7 @@ img {
     font-size: 1.2rem;
   }
 }
+*/
 
 .cards-row {
   display: flex;
@@ -153,12 +143,15 @@ img {
   gap: 1rem;
 }
 
+/*
 @media screen and (min-width: 740px) {
   .columns-2 {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
   }
 }
+*/
+
 
 .form-fields {
   display: grid;
