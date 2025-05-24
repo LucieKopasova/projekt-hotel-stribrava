@@ -1,6 +1,6 @@
-import { RoomCard } from "../Room/RoomCard"
+import { RoomCard } from "../RoomCard/RoomCard"
 
-export const RoomsContainer = () => {
+export const RoomsContainer = ({roomsData, onSelectRoom}) => {
     return (
         
        <section className="dark">
@@ -10,7 +10,12 @@ export const RoomsContainer = () => {
         Quas odio quidem, enim nihil unde quia temporibus vitae in ab.
       </p>
       <div className="cards-row">
-        <RoomCard/>
+
+        {roomsData.map((room) => (
+           <RoomCard key={room.id} room={room} onSelectRoom={onSelectRoom} />
+        ))
+}
+       
       </div>
 
     </div>

@@ -8,6 +8,7 @@ export const Banner = () => {
                         <p className="lead">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, sequi.
                         </p>
+                        
                     </div>
                 </div>
             </div>

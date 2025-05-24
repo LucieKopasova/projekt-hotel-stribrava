@@ -3,30 +3,30 @@
     "id": "pokoj01",
     "category": "Úkryt",
     "price": 450,
-    "image": "/assets/pokoj01.jpg"
+    "image":  "http://localhost:4000/assets/pokoj01.jpg"
   },
   {
     "id": "pokoj02",
     "category": "Základ",
     "price": 700,
-    "image": "/assets/pokoj02.jpg"
+    "image":  "http://localhost:4000/assets/pokoj02.jpg"
   },
   {
     "id": "pokoj03",
     "category": "Klasik",
     "price": 1200,
-    "image": "/assets/pokoj03.jpg"
+    "image":  "http://localhost:4000/assets/pokoj03.jpg"
   },
   {
     "id": "pokoj04",
     "category": "Komfort",
     "price": 2500,
-    "image": "/assets/pokoj04.jpg"
+    "image":  "http://localhost:4000/assets/pokoj04.jpg"
   },
   {
     "id": "pokoj05",
     "category": "Luxus",
     "price": 8000,
-    "image": "/assets/pokoj05.jpg"
+    "image":  "http://localhost:4000/assets/pokoj05.jpg"
   }
 ]
