@@ -9,7 +9,7 @@ export const RoomDetailContainer = ({selectedRoom}) => {
 
             <RoomDetailInfo selectedRoom={selectedRoom}/>
 
-            <Formular />
+            <Formular selectedRoom={selectedRoom}/>
 
           </div>
         </section>
